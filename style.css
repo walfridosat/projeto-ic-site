@@ -29,8 +29,8 @@ ul {
 }
 
 .selfie {
-    width: 15%;
-    height: auto;
+    width: 20vh;
+    height: auto ;
     border-radius: 50%;
     border: 4px solid black;
 }
