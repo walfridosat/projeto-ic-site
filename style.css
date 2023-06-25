@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(blackroverdthd.gif);
+    background-size: 17%;
+}
+
+ul {
+    list-style: none;
+}
+.apresentacao {
+    color: #ffffff;
+    background-color: #253342;
+    border: 10px double black;
+    
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
+
+    margin: 20px;
+    padding: 20px;
+}
+
+.selfie {
+    width: 15%;
+    height: auto;
+    border-radius: 50%;
+    border: 4px solid black;
+}
+/* texto */
+.nome {
+    margin-top: 40px;
+    font-size: 2rem;
+}
+
+.intro {
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+
+.propaganda {
+    font-size: 1rem;
+    list-style: none;
+    margin-top: 10px;
+}
+/* links */
+.propaganda { 
+    margin-top: 20px;
+    text-align: center;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.logos a img {
+    width: 100px;
+    height: auto;
+    margin: 0 10px;
+}
